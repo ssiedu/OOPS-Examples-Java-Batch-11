@@ -4,14 +4,17 @@ public class Account {
     private int balance;
     private static int totalCash;
 
-    public void showTotalCash(){
+    public static void drawLine(){
+        System.out.println("___________________________");
+    }
+    public static void showTotalCash(){
         System.out.println("Total Cash : "+totalCash);
     }
     public void showData(){
         System.out.println("Account Number : "+ano);
         System.out.println("Customer Name  : "+cname);
         System.out.println("Balance   Rs.  : "+balance);
-        System.out.println("______________________________");
+        drawLine();
     }
     public void setData(int x, String y, int z){
         ano=x;  

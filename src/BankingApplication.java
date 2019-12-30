@@ -12,7 +12,8 @@ public class BankingApplication {
         ac1.showData();
         ac2.showData();
         ac3.showData();
-        ac3.showTotalCash();
-        
+
+        Account.showTotalCash();
+
     }
 }
