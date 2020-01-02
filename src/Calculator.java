@@ -2,7 +2,9 @@
 public class Calculator {
 
     //here we are having 3 forms of add method
-    
+    public static void add(String a, String b){
+        System.out.println(a+b);
+    }
     public static void add(int a, int b){
         System.out.println(a+b);
     }
@@ -13,7 +15,7 @@ public class Calculator {
         System.out.println(a+b+c+d);
     }
     public static void main(String[] args) {
-        
+        add("ab","cd");
         add(10,20);
         add(10,20,30);
         add(10,20,30,40);

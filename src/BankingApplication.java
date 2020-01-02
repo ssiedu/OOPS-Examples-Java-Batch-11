@@ -17,6 +17,7 @@ public class BankingApplication {
         //ac3.showAvg(ac2);
         Account.showAvg(ac1,ac2);
         Account.showAvg(ac1, ac2, ac3);
+        //Account.showAvg(ac1, ac2, ac3, ac4);
         //ac1.showAvg(ac2, ac3);
         
         //ac1.showBalance();
